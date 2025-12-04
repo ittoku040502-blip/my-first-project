@@ -1,0 +1,24 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+
+# --- 重要なセキュリティ設定 ---
+# APIキーが入っているファイル（絶対に公開してはいけない！）
+.env
+
+# --- 不要なシステムファイル ---
+# 仮想環境のフォルダ（容量が巨大なのでGitには上げない）
+.venv/
+
+# Pythonが勝手に作るキャッシュファイル
+__pycache__/
+*.py[cod]
+
+# --- 自分のデータ（必要に応じて） ---
+# テストに使った画像や、出力されたCSVを公開したくない場合
+*.jpg
+*.png
+*.csv
+
+# OSが勝手に作るファイル（Macの.DS_Storeなど）
+.DS_Store
+.gitigonre
